@@ -6,12 +6,13 @@ set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 add_subdirectory(libs/lib1)
 add_subdirectory(libs/lib2)
 
 add_executable(cproj
-  src/main.c
-  src/app.c
+  src/main.c src/app.c
 )
 
 # Headers for the app itself
