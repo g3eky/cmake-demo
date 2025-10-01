@@ -4,6 +4,3 @@
 ## Then build
 `cmake --build build`
 
-
-# TODO
-- [ ] Add instructions on how to add vim/neovim completion
