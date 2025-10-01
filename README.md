@@ -4,3 +4,6 @@
 ## Then build
 `cmake --build build`
 
+# Documentation
+The code is documented well where necessary or self explanatory.
+
